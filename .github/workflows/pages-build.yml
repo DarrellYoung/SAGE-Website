@@ -1,0 +1,15 @@
+# Placeholder GitHub Actions workflow for building GitHub Pages
+name: "Pages Build"
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup
+        run: echo "Customize this workflow to build your site"
